@@ -45,16 +45,29 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>DEMO<span>.</span></h1>
+        <h1>YELLOWTEX<span>.</span></h1>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
+          <li><a href="#hero">Telas</a></li>
+          <li><a href="#about">Sostenibilidad</a></li>
+          <li><a href="#">Diseñadores</a></li>
+          <li><a href="#">Emprendedores</a></li>
+          <li><a href="#">Colaboradores</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <!-- <li><a href="#menu">Idiomas</a></li> -->
+          <li><a href="#menu"><i class="bi bi-cart" style="font-size: 22px;"></i></a></li>
+
+        </ul>
+      </nav> 
+
+        <!--<ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
-          <!-- <li><a href="#events">Events</a></li>
-          <li><a href="#chefs">Chefs</a></li> -->
+           <li><a href="#events">Events</a></li>
+          <li><a href="#chefs">Chefs</a></li> 
           <li><a href="#gallery">Gallery</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
@@ -75,17 +88,39 @@
           </li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav><!-- .navbar -->
+      </nav> .navbar -->
 
-      <a class="btn-book-a-table" href="#book-a-table">Book a Table</a>
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <!-- <a class="btn-book-a-table" href="#book-a-table"><i class="bi bi-person" style="font-size: 22px;"></i>Iniciar Sesion</a> -->
+   
 
     </div>
   </header><!-- End Header -->
 
+  <!-- ======= Test video Section ======= -->
+
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center section-bg">
+  <section id="hero" class="hero d-flex align-items-center section-bg " style="background: rgba(0, 0, 0, 0.5);">
+    <div class="container">
+      <div class="position-relative">
+        <video class="video-banner " src="./assets/videos/tela.mp4" autoplay loop></video>
+        <div class="video-filter d-flex align-items-center justify-content-center">
+          <div class="text-center">
+            <h1 class="display-4 text-white">We transform waste into<br> resistant fabricsHealthy</h1>
+            <p class="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-warning ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><path d="M23.322 19.318l-4.072 1.192-1.193-4.072 1.763.964c.737-1.305 1.18-2.798 1.18-4.402 0-3.681-2.224-6.849-5.396-8.242l.623-1.914c3.975 1.657 6.772 5.579 6.772 10.156 0 1.953-.521 3.779-1.416 5.367l1.739.951zm-11.323 2.682c-3.332 0-6.24-1.825-7.796-4.523l1.769-1.026-4.102-1.089-1.089 4.1 1.694-.982c1.899 3.295 5.447 5.52 9.524 5.52 2.202 0 4.248-.654 5.969-1.768l-1.24-1.588c-1.376.854-2.994 1.356-4.729 1.356zm-8.994-8.876l-.006-.124c0-4.625 3.51-8.433 8.004-8.932l-.004 1.932 3.005-2.996-2.995-3.004-.003 2.05c-5.61.503-10.007 5.21-10.007 10.95l.021.402 1.985-.278zm6.126-.564c-.251.862-.146 1.768.415 2.571.904-1.333 2.588-2.767 3.76-3.039-2.395 1.731-3.735 4.16-3.909 6.908h1.011c-.023-1.038.125-2.345.497-2.934.911.302 1.924.125 2.797-.613 1.724-1.463 1.077-5.14 4.112-5.564-4.07-2.224-7.943.124-8.683 2.671z"/></svg>
+              Sustainable fashion</a>
+            <!-- agregar icono del planeta --> 
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <!-- ======= Hero Section ======= -->
+  <!-- <section id="hero" class="hero d-flex align-items-center section-bg">
     <div class="container">
       <div class="row justify-content-between gy-5">
         <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
@@ -101,7 +136,7 @@
         </div>
       </div>
     </div>
-  </section><!-- End Hero Section -->
+  </section>End Hero Section -->
 
   <main id="main">
 
@@ -125,6 +160,25 @@
             </div>
             
             <style>
+              .video-banner {
+              position: absolute;
+              top: 0;
+              left: 0;
+              min-height: 500px;
+              object-fit: cover;
+            }
+
+            .video-filter {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-color: rgb(0, 0, 0);
+            }
+            .hero{
+              min-height: 67vh;
+            }
             .video-container {
               position: absolute;
               top: 0px;
